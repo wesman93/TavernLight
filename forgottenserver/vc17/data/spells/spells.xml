@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <spells>
+	<!--This is my custom attack. I used Flame Strike as a template and gave it a unique id and name.
+		I made sure to make "frigo" the word used to match the example video for Q5.
+		It references the attack script I created.
+	-->
 	<instant group="attack" secondarygroup="special" spellid="777" name="Test Icenado" words="frigo" lvl="70" mana="60" prem="0" range="0" casterTargetOrDirection="1" blockwalls="1" cooldown="8000" groupcooldown="2000" secondarygroupcooldown="8000" needlearn="0" script="attack/test_icenado.lua">
 		<vocation name="Sorcerer" />
 		<vocation name="Druid" />

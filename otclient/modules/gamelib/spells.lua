@@ -16,6 +16,7 @@ SpelllistSettings = {
 
 SpellInfo = {
   ['Default'] = {
+    -- Added my new ability here as well
     ['Test Icenado'] =             {id = 777,  words = 'frigo',            exhaustion = 2000,  premium = false,  type = 'Instant', icon = 'flamestrike',            mana = 20,     level = 14, soul = 0, group = {[1] = 2000},               vocations = {1, 2, 3, 4, 5, 6, 7, 8}},
     ['Death Strike'] =             {id = 87,  words = 'exori mort',            exhaustion = 2000,  premium = false,  type = 'Instant', icon = 'deathstrike',            mana = 20,     level = 16, soul = 0, group = {[1] = 2000},               vocations = {1, 2, 3, 4, 5, 6, 7, 8}},
     ['Flame Strike'] =             {id = 89,  words = 'exori flam',            exhaustion = 2000,  premium = false,  type = 'Instant', icon = 'flamestrike',            mana = 20,     level = 14, soul = 0, group = {[1] = 2000},               vocations = {1, 2, 3, 4, 5, 6, 7, 8}},
@@ -218,7 +219,7 @@ SpellIcons = {
   ['enchantstaff']              = {103, 92},
   ['poisonbomb']                = {70, 91},
   ['cancelinvisibility']        = {95, 90},
-  ['testicenado']               = {777, 89},
+  ['testicenado']               = {777, 89}, -- I just used the same icon as flamestrike here. (Not a requirement )
   ['flamestrike']               = {26, 89},
   ['energystrike']              = {29, 88},
   ['deathstrike']               = {38, 87},
