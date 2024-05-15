@@ -1,16 +1,7 @@
 MainWindow
   id: jumpMain
-  size: 800 800
+  size: 500 500
   @onEscape: modules.jump.closing()
-
-  Panel
-    id: optionsTabContent
-    anchors.top: allTabs.top
-    anchors.left: allTabs.left
-    anchors.right: allTabs.right
-    anchors.bottom: allTabs.bottom
-    margin-top: 20
-    margin-bottom: 20
 
   Button
     id: jumpButton
